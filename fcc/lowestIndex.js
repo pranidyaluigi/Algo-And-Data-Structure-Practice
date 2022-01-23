@@ -37,3 +37,23 @@ function getIndexToIns(arr, num) {
 
 // getIndexToIns([40, 60], 50);
 getIndexToIns([10, 20, 30, 40, 50], 40);
+
+// function getIndexToIns(arr, num) {
+//   return arr.filter((val) => num > val).length;
+// }
+
+// function getIndexToIns(arr, num) {
+//   // sort and find right index
+//   let index = arr
+//     .sort((curr, next) => curr - next)
+//     .findIndex((currNum) => num <= currNum);
+//   // Returns index or total length of arr
+//   return index === -1 ? arr.length : index;
+// }
+
+// function getIndexToIns(arr, num) {
+//   return arr
+//     .concat(num)
+//     .sort((a, b) => a - b)
+//     .indexOf(num);
+// }
