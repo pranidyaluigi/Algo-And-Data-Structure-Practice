@@ -14,10 +14,10 @@ function sentence(str1, str2) {
   let result = {};
   //get each str1
   for (let i = 0; i < str1.length; i++) {
-    // console.log(str1[0]);
+    console.log("STR1>>>>>>", str1[i]);
     //get letter of str1
     let letter = str1[i];
-    // console.log(letter);
+    console.log("LETTER>>>>>", letter);
     //check each letter and push to result
     result[letter] = result[letter]
       ? (result[letter] += 1)
@@ -32,6 +32,7 @@ function sentence(str1, str2) {
       console.log(result);
       return false;
     } else {
+      console.log(result);
       result[letter] -= 1;
     }
   }
@@ -39,4 +40,4 @@ function sentence(str1, str2) {
   return true;
 }
 
-console.log(sentence("ronak", "koaaa"));
+console.log(sentence("ronak", "narob"));
