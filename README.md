@@ -1,7 +1,9 @@
 # Algo And Data Structure Practice
 
 ### Practice! Practice! Practice!
-This is my repository for learning and practicing about algorithms, data structures and also solving problems.
+This is repository for learning and practicing about algorithms, data structures and also solving problems.
+<br />
+The file is in the master branch.
 
 Source:
 <br />
